@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font-family: 'Roboto', sans-serif;
+	vertical-align: baseline;
+	}
+
+hr {
+	display: block;
+	unicode-bidi: isolate;
+	-webkit-margin-before: 0.5em;
+	-webkit-margin-after: 0.5em;
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
+	overflow: hidden;
+	border-style: inset;
+	border-width: 1px;
+}
+
+body {
+	line-height: 150%;
+	width: 960px;
+	}
+
+body {
+	background-image: url('img/swirl_pattern.png');
+    background-color: #25274d;
+	color: #aaabb8;	
+}
+
+h1, h2 {
+	color: #aaabb8;
+}
+
+h1 {font-size: 40px;}
+
+h2 {font-size:26px;}
+
+img {
+	margin: 30px;
+	margin-top: 0px;
+}
+.float {float: left;}
+
+.links {
+	float: left;
+	height: 100%;
+	width: 55%;
+	}
+.links a {text-decoration: none; color: #aaabb8;}
+.links :active {color: #29648a}
+.links :hover {color: #2e9cca}
+.links :visited {color: #464866}
+
+.title {
+	float: left;
+	height: 100%;
+	width: 45%;
+	vertical-align: middle;
+	}
+
+#container {
+	width: 960px;
+	margin-right: auto;
+	margin-left:auto;
+	padding: 30px;
+	padding-top: 0px;
+}
+
+#maincontent {
+	margin-top: 25px; 
+	
+}
+
+#nav {
+	font-weight: bold;
+	padding: 30px 0px;
+	width:960px;			
+	margin-right: auto;
+	margin-left:auto;
+	height: 50px;
+}
+
+ul {float: right; margin: auto;}
+li { float: left; list-style: none; margin: auto 20px;}
+
+@media only screen and (max-width: 980px) {
+	#container {
+		max-width: 80%;
+	}
+}
+	
+@media only screen and (max-width: 768px) {
+	#container {
+		max-width: 90%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	#container {
+		max-width: 90%;
+	}
+	header  {
+        position: static;
+	}
+}
